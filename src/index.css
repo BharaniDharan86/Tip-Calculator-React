@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  background-color: hsl(172, 67%, 45%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  background-color: hsl(0, 0%, 100%);
+  width: 60%;
+  height: 440px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 0px 10px hsl(189, 41%, 97%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bill-result-outer {
+  padding: 20px;
+}
+
+.bill-result {
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+
+.bill-result h3 {
+  color: hsl(189, 41%, 97%);
+  font-size: 24px;
+}
+
+.bill-result p {
+  color: hsl(185, 41%, 84%);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.set {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 30px;
+}
+
+.set span {
+  font-size: 16px;
+  color: hsl(185, 41%, 84%);
+  letter-spacing: 1px;
+}
+
+.bill-result button {
+  width: 80%;
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+  padding: 10px 12px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: auto;
+  cursor: pointer;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: space-around;
+}
+
+.form {
+  padding: 40px;
+}
+
+.form div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  color: hsl(183, 100%, 15%);
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+input {
+  background-color: hsl(183, 61%, 93%);
+  width: 100%;
+  padding: 10px;
+}
+
+.form button {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  margin: 10px;
+  padding: 15px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: hsl(172, 67%, 45%) !important;
+}
